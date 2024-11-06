@@ -44,7 +44,7 @@ dependencies {
 
 
 group = "com.github.ImthiyaszAlam" // Replace with your GitHub username
-version = "1.0.0"             // Set your desired version here
+version = "v1.0.0"             // Set your desired version here
 
 //afterEvaluate {
 //    publishing {
@@ -65,7 +65,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.github.ImthiyaszAlam" // Replace with your GitHub username
                 artifactId = "AndroidLibrary"           // Replace with your library name
-                version = "1.0.0"                    // Define your version
+                version = "v1.0.0"                    // Define your version
 
                 // Publish the AAR file for Android libraries
                 artifact("$buildDir/outputs/aar/MathLibrary-release.aar")
