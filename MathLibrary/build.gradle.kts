@@ -64,7 +64,7 @@ afterEvaluate {
         publications {
             create<MavenPublication>("maven") {
                 groupId = "com.github.ImthiyaszAlam" // Replace with your GitHub username
-                artifactId = "MathLibrary"           // Replace with your library name
+                artifactId = "AndroidLibrary"           // Replace with your library name
                 version = "1.0.0"                    // Define your version
 
                 // Publish the AAR file for Android libraries
