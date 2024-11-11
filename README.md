@@ -1,1 +1,3 @@
-gradle configurations aren't working properly
+gradle configurations aren't working
+
+Need assistance 
